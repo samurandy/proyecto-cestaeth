@@ -1,0 +1,75 @@
+=============== Oct 7, 2024 (UTC) ===============
+18:05:07.316200 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:05:07.445399 db@open opening
+18:05:07.448910 version@stat F·[] S·0B[] Sc·[]
+18:05:07.492365 db@janitor F·2 G·0
+18:05:07.492586 db@open done T·46.952011ms
+18:05:08.122297 db@close closing
+18:05:08.123465 db@close done T·1.165258ms
+=============== Oct 7, 2024 (UTC) ===============
+18:05:15.248552 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:05:15.255038 version@stat F·[] S·0B[] Sc·[]
+18:05:15.255520 db@open opening
+18:05:15.256644 journal@recovery F·1
+18:05:15.276330 journal@recovery recovering @1
+18:05:15.311358 memdb@flush created L0@2 N·16 S·1KiB "H\xf9m..`\xe5\\,v9":"\xb9.i..&\x89\xa4,v5"
+18:05:15.333866 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+18:05:15.515428 db@janitor F·3 G·0
+18:05:15.515825 db@open done T·260.128708ms
+18:07:53.175167 db@close closing
+18:07:53.181282 db@close done T·6.112396ms
+=============== Oct 7, 2024 (UTC) ===============
+18:08:06.348934 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:08:06.353855 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+18:08:06.354423 db@open opening
+18:08:06.355611 journal@recovery F·1
+18:08:06.373909 journal@recovery recovering @3
+18:08:06.428805 memdb@flush created L0@5 N·13 S·696B "Dat..ion,v19":"unc..own,v27"
+18:08:06.451663 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+18:08:06.654926 db@janitor F·4 G·0
+18:08:06.655149 db@open done T·300.535964ms
+19:31:38.950894 db@close closing
+19:31:38.952871 db@close done T·1.975282ms
+=============== Oct 7, 2024 (UTC) ===============
+19:33:04.768796 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:33:04.779720 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+19:33:04.780101 db@open opening
+19:33:04.781051 journal@recovery F·1
+19:33:04.804730 journal@recovery recovering @6
+19:33:07.026092 memdb@flush created L0@8 N·21 S·684B "Sna..tor,v50":"unc..own,v33"
+19:33:07.054780 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+19:33:07.289761 db@janitor F·5 G·0
+19:33:07.290119 db@open done T·2.509893711s
+=============== Oct 7, 2024 (UTC) ===============
+19:38:04.804257 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:38:04.810642 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+19:38:04.811162 db@open opening
+19:38:04.812279 journal@recovery F·1
+19:38:04.832866 journal@recovery recovering @9
+19:38:04.908879 memdb@flush created L0@11 N·2 S·384B "eth..`\xe5\\,v54":"unc..own,v55"
+19:38:04.930365 version@stat F·[4] S·2KiB[2KiB] Sc·[1.00]
+19:38:05.111537 db@janitor F·6 G·0
+19:38:05.111798 db@open done T·300.46735ms
+19:38:05.111921 table@compaction L0·4 -> L1·0 S·2KiB Q·56
+19:38:05.175934 table@build created L1@14 N·23 S·1KiB "Dat..ion,v19":"\xb9.i..&\x89\xa4,v5"
+19:38:05.176395 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+19:38:05.248670 table@compaction committed F-3 S-1KiB Ke·0 D·29 T·136.190623ms
+19:38:05.250537 table@remove removed @8
+19:38:05.252463 table@remove removed @5
+19:38:05.254365 table@remove removed @2
+20:01:48.516287 db@close closing
+20:01:48.518136 db@close done T·1.840116ms
+=============== Oct 8, 2024 (UTC) ===============
+20:06:19.348879 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:06:21.551500 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+20:06:21.552708 db@open opening
+20:06:21.555070 journal@recovery F·1
+20:06:21.572738 journal@recovery recovering @12
+20:06:21.717487 memdb@flush created L0@15 N·3317 S·177KiB "\n\x04\xb4..\xf0\x8a\x9e,v3371":"\xf9\xac\u007f..tV\xa8,v3366"
+20:06:21.738117 version@stat F·[1 1] S·178KiB[177KiB 1KiB] Sc·[0.25 0.00]
+20:06:21.938964 db@janitor F·5 G·1
+20:06:21.939228 db@janitor removing table-11
+20:06:21.940593 db@open done T·387.470948ms
+=============== Oct 11, 2024 (UTC) ===============
+16:54:41.579388 db@close closing
+16:54:41.607804 db@close done T·28.413398ms

@@ -1,0 +1,18 @@
+Este caso es parecido al faucet pero no igual.
+Usamos PoW lo que hace cambiar el genesis.json y el go-client version (Max: v1.10.18, más alto, el nodo va a tirar un error de compatibilidad).
+Nota: genesis ahora no usa clique sino ethash, que es PoW
+Nota2: En alloc puedes definir cuentas (que hayas creado en metamask antes) donde puedes definir una cantidad de tokens a gusto.
+
+Creamos bd:
+docker run -d --name eth -v ${PWD}/data:/data -v ${PWD}/genesis.json:/genesis.json ethereum/client-go:v1.10.18 init --datadir data /genesis.json
+
+Creamos nodo:
+docker run -d --name ethnodo -p 9888:8456 -v ${PWD}/data:/data ethereum/client-go:v1.10.18 --datadir /data --http --http.api personal,web3,net,eth --http.addr 0.0.0.0 --http.port 8456 --http.corsdomain * --mine --miner.etherbase 0xd8F7026c21EdEf11342cd90130975980B92a6cbb --miner.threads 1
+//Nota: CUIDADO con no añadir --miner.threads 1, el nodo aceptará transacciones pero no minará bloques.
+
+Creamos red manual en metamask con:
+url: http://localhost:9888
+chain id: 8888
+
+//Super nota: se puede consultar ciertas cosas del estado del nodo accediendo a la consola del mismo así:
+docker exec -it ethnodo geth attach http://localhost:8456

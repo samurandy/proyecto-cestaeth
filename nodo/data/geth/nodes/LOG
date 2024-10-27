@@ -1,0 +1,74 @@
+=============== Oct 7, 2024 (UTC) ===============
+18:05:15.696092 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:05:15.845116 db@open opening
+18:05:15.852317 version@stat F·[] S·0B[] Sc·[]
+18:05:15.903034 db@janitor F·2 G·0
+18:05:15.903332 db@open done T·57.705664ms
+18:07:53.183868 db@close closing
+18:07:53.187058 db@close done T·3.179654ms
+=============== Oct 7, 2024 (UTC) ===============
+18:08:06.807824 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:08:06.814601 version@stat F·[] S·0B[] Sc·[]
+18:08:06.815231 db@open opening
+18:08:06.817442 journal@recovery F·1
+18:08:06.819190 journal@recovery recovering @1
+18:08:06.862861 memdb@flush created L0@2 N·84 S·1KiB "loc..seq,v2":"version,v1"
+18:08:06.866135 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+18:08:07.054793 db@janitor F·3 G·0
+18:08:07.055046 db@open done T·239.489526ms
+19:31:38.954721 db@close closing
+19:31:38.956620 db@close done T·1.892279ms
+=============== Oct 7, 2024 (UTC) ===============
+19:33:07.536084 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:33:07.549171 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+19:33:07.549681 db@open opening
+19:33:07.551483 journal@recovery F·1
+19:33:07.553179 journal@recovery recovering @3
+19:33:07.601882 memdb@flush created L0@5 N·236 S·2KiB "loc..seq,v86":"n:\xf2..ail,v93"
+19:33:07.605687 version@stat F·[2] S·3KiB[3KiB] Sc·[0.50]
+19:33:07.797079 db@janitor F·4 G·0
+19:33:07.797650 db@open done T·247.795762ms
+=============== Oct 7, 2024 (UTC) ===============
+19:38:05.385724 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:38:05.394060 version@stat F·[2] S·3KiB[3KiB] Sc·[0.50]
+19:38:05.394899 db@open opening
+19:38:05.396630 journal@recovery F·1
+19:38:05.397735 journal@recovery recovering @6
+19:38:05.435825 memdb@flush created L0@8 N·62 S·1KiB "loc..seq,v323":"n:\xf2..ail,v330"
+19:38:05.437959 version@stat F·[3] S·4KiB[4KiB] Sc·[0.75]
+19:38:05.634188 db@janitor F·5 G·0
+19:38:05.634474 db@open done T·239.323112ms
+20:01:48.519816 db@close closing
+20:01:48.522306 db@close done T·2.484256ms
+=============== Oct 8, 2024 (UTC) ===============
+20:06:22.196120 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:06:22.212726 version@stat F·[3] S·4KiB[4KiB] Sc·[0.75]
+20:06:22.213414 db@open opening
+20:06:22.214953 journal@recovery F·1
+20:06:22.216472 journal@recovery recovering @9
+20:06:22.267676 memdb@flush created L0@11 N·57 S·1001B "loc..seq,v386":"n:\xf2..ail,v394"
+20:06:22.272049 version@stat F·[4] S·5KiB[5KiB] Sc·[1.00]
+20:06:22.463345 db@janitor F·6 G·0
+20:06:22.463685 db@open done T·250.044063ms
+20:06:22.463812 table@compaction L0·4 -> L1·0 S·5KiB Q·443
+20:06:22.558791 table@build created L1@14 N·10 S·624B "loc..seq,v386":"version,v1"
+20:06:22.559061 version@stat F·[0 1] S·624B[0B 624B] Sc·[0.00 0.00]
+20:06:22.601846 table@compaction committed F-3 S-4KiB Ke·0 D·429 T·129.90342ms
+20:06:22.603731 table@remove removed @8
+20:06:22.605345 table@remove removed @5
+20:06:22.606996 table@remove removed @2
+=============== Oct 9, 2024 (UTC) ===============
+18:29:48.562243 memdb@flush N·39041 S·3MiB
+18:29:48.800347 memdb@flush created L0@16 N·39041 S·796KiB "loc..seq,v444":"n:\xff..ong,v20665"
+18:29:48.800722 version@stat F·[1 1] S·797KiB[796KiB 624B] Sc·[0.25 0.00]
+18:29:48.846617 memdb@flush committed F·1 T·283.668364ms
+18:29:48.849549 journal@remove removed @12
+18:31:27.444292 table@compaction L0·1 -> L1·1 S·797KiB Q·39632
+18:31:27.726152 table@build created L1@17 N·13759 S·438KiB "loc..seq,v444":"version,v1"
+18:31:27.726528 version@stat F·[0 1] S·438KiB[0B 438KiB] Sc·[0.00 0.00]
+18:31:27.759238 table@compaction committed F-1 S-359KiB Ke·0 D·25292 T·314.426855ms
+18:31:27.761865 table@remove removed @16
+18:31:27.765024 table@remove removed @14
+=============== Oct 11, 2024 (UTC) ===============
+16:54:42.065498 db@close closing
+16:54:42.257000 db@close done T·191.496595ms
